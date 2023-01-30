@@ -1,0 +1,74 @@
+<!--
+* Author: Noah Funderburgh
+* Date: 5/28/2022
+* Teacher: Lisa Hebert
+* Class: CST-120-O500
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Funderburgh's Website</title>
+	<!--Link to CSS style sheet-->
+    <link rel="stylesheet" href="../styles/main.css">
+	<!--BootStrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!--jquery-->
+  	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body class="grey-background">
+    <header>
+		<!--Navigation Links-->
+		<div class="topnav">
+			<ul>
+				<!-- Small, Medium & Large Screen 8.3%% -->
+			    <li><a href="index.html" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills">Home</a></li>
+				<li><a href="#" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills" >Meet Me</a></li>
+				<li><a href="Projects.html" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills" >Projects</a></li>
+				<li><a href="Gallery.html" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills">Gallery</a></li>
+				<li><a href="Thingstoshare.html" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills">Things to share</a></li>
+				<li><a href="ContactMe.html" class="whiteText col-sm-2 col-md-2 col-lg-2 nav-pills" >Contact Me</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<!-- Black Vertical Lines -->
+		<div class="d-sm-none d-md-block d-lg-block">
+			<div class="verticalLine"></div>
+			<div style="animation-name: medLong;" class="verticalLine"></div>
+			<div style="animation-name: medShort;" class="verticalLine"></div>
+			<div style="animation-name: short;" class="verticalLine"></div>
+		</div>
+		
+		<!-- I edited some of the style properties in the div so I could reuse the container class instead of making two seperate id tags for each container-->
+		<div class="container" style="width: 75%;">
+			<h3>Meet Me</h3>
+			<img id="meetMePicture" src="../images/selfPicture.jpg">
+			<p id="meetMeParagraph" class="whiteText">
+				Hello my name is Noah Funderburgh. I'm 23 and lived in Portland, 
+				Oregon most of my life but have I recently moved to Phoenix, AZ 
+				because I got tired of the cold weather. I am transferring over 
+				from Portland state university to GCU. I have my associates in computer 
+				science and am currently working towards a bachelor's in software development. 
+				A little about me is I am into video games, crypto, NFT's, and sports. 
+				I have played video games for as long as I can remember. I play all 
+				different types of games from fps to mmorpg's or even moba's depending 
+				on how I am feeling. More recently I have got into crypto. From crypto
+				I got into NFT's which are essentially a form of digital art. 
+				I also love watching basketball in my free time even though I am terrible at it.</p>
+		</div>
+	</main>
+	<footer>
+		<a href="https://www.tiktok.com/@zapb0lt" target="_blank"> <!-- Target="_blank" opens link in new tab-->
+			<img class="Icon" style="margin-right: 2em;" src="../images/tik-tok.png">
+		</a>
+		<a href="https://www.instagram.com/thunderquack/?hl=en" target="_blank"><!-- Target="_blank" opens link in new tab-->
+			<img class="Icon" src="../images/instagram.png">
+		</a>
+		<a href="https://www.facebook.com/noah.funderburgh/" target="_blank"><!-- Target="_blank" opens link in new tab-->
+			<img class="Icon" src="../images/facebook.png">
+		</a>
+	</footer>
+</body>
+</html>
